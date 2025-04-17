@@ -1,0 +1,262 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-29T04:46:24.132Z",
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": ";;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13541334600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Chrome Browser",
+            "match": {
+              "location": "Fb_Multiple_users.open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 566081300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter Invalid \"java@gmail.com\" UserName",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java@gmail.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Fb_Multiple_users.enter_Invalid_UserName(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 242254100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter Invalid \"java123\" Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java123\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Fb_Multiple_users.enter_Invalid_Password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 232249200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click Login",
+            "match": {
+              "location": "Fb_Multiple_users.click_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 766800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close Browser",
+            "match": {
+              "location": "Fb_Multiple_users.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-29T04:46:38.959Z",
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": ";;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5062058400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Chrome Browser",
+            "match": {
+              "location": "Fb_Multiple_users.open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 380986500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter Invalid \"python@gmail.com\" UserName",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"python@gmail.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Fb_Multiple_users.enter_Invalid_UserName(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 388208400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter Invalid \"python123\" Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"python123\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Fb_Multiple_users.enter_Invalid_Password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 351232400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click Login",
+            "match": {
+              "location": "Fb_Multiple_users.click_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1421700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close Browser",
+            "match": {
+              "location": "Fb_Multiple_users.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-29T04:46:45.152Z",
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": ";;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6595946100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Chrome Browser",
+            "match": {
+              "location": "Fb_Multiple_users.open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 889901500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter Invalid \"selenium@gmail.com\" UserName",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium@gmail.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Fb_Multiple_users.enter_Invalid_UserName(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1337428600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter Invalid \"selenium123\" Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium123\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Fb_Multiple_users.enter_Invalid_Password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 597444500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click Login",
+            "match": {
+              "location": "Fb_Multiple_users.click_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1045100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close Browser",
+            "match": {
+              "location": "Fb_Multiple_users.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "fb multiple user login",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/cjaya/eclipse-workspace1/Maven_googledriver/src/test/resources/Feature/fb_multiple_users.Feature",
+    "tags": []
+  }
+]

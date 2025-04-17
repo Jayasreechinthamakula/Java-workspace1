@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="10.323643">
+    <testcase classname="" name="_2" time="4.056823">
+        <system-out><![CDATA[Given open Chrome Browser...................................................passed
+Then enter Invalid "java@gmail.com" UserName................................passed
+Then enter Invalid "java123" Password.......................................passed
+Then click Login............................................................passed
+And close Browser...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_3" time="2.992146">
+        <system-out><![CDATA[Given open Chrome Browser...................................................passed
+Then enter Invalid "python@gmail.com" UserName..............................passed
+Then enter Invalid "python123" Password.....................................passed
+Then click Login............................................................passed
+And close Browser...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_4" time="3.274674">
+        <system-out><![CDATA[Given open Chrome Browser...................................................passed
+Then enter Invalid "selenium@gmail.com" UserName............................passed
+Then enter Invalid "selenium123" Password...................................passed
+Then click Login............................................................passed
+And close Browser...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
