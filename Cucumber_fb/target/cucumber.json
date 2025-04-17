@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-11T04:54:47.879Z",
+        "line": 4,
+        "name": "",
+        "description": "TO open Fb login with incorrect username and Password",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13362472600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open edge driver",
+            "match": {
+              "location": "Fb_login.open_edge_driver()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183407300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter user email",
+            "match": {
+              "location": "Fb_login.enter_user_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129723800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter password",
+            "match": {
+              "location": "Fb_login.enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258998300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click Login",
+            "match": {
+              "location": "Fb_login.click_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 494068600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close Browser",
+            "match": {
+              "location": "Fb_login.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate login functionality of Fb",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/cjaya/eclipse-workspace1/Cucumber_fb/src/test/resources/Feature_file/FB_Login.Feature",
+    "tags": []
+  }
+]
