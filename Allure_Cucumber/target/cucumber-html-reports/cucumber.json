@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "TO open Fb login with incorrect username and Password",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5834057500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open edge browser",
+            "match": {
+              "location": "LoginPage.open_edge_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137785000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter  invalid user email",
+            "match": {
+              "location": "LoginPage.enter_invalid_user_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140647100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter  invalid password",
+            "match": {
+              "location": "LoginPage.enter_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175436100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click Login",
+            "match": {
+              "location": "LoginPage.click_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.StackOverflowError\r\n\tat org.stepdefinition.LoginPage.close_Browser(LoginPage.java:43)\r\n\tat ✽.close Browser(C:/Users/cjaya/eclipse-workspace1/Allure_Cucumber/src/test/resources/Feature_file1/Fb_login.Feature:11)\r\n",
+              "duration": 5523200,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "close Browser",
+            "match": {
+              "location": "LoginPage.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate login functionality of Fb",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Users/cjaya/eclipse-workspace1/Allure_Cucumber/src/test/resources/Feature_file1/Fb_login.Feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,1 @@
+C:/Users/cjaya/eclipse-workspace1/Allure_Cucumber/src/test/resources/Feature_file1/Fb_login.Feature:4
